@@ -230,7 +230,7 @@ VantagePro2_GetStatus($)
 			readingsBulkUpdate($hash,"humidity-inside",$ihum." %");
 			readingsBulkUpdate($hash,"windspeed",$windspeed." km/h");
 			readingsBulkUpdate($hash,"10min-avg-windspeed",$avgwindspeed." km/h");
-			readingsBulkUpdate($hash,"wind-direction",$winddir." km/h");
+			readingsBulkUpdate($hash,"wind-direction",$winddir." Degrees");
 			readingsBulkUpdate($hash,"solar",$solar." Watt/m^2");
 			readingsBulkUpdate($hash,"uv",$uv." UV/Index");
 			readingsBulkUpdate($hash,"rainrate",$rainrate." mm/h");
