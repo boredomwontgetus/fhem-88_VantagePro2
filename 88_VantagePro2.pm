@@ -107,7 +107,7 @@ VantagePro2_GetStatus($)
 	  $answer=$tel->get();
 	  $tel->close();  
 
-#	  print "Debug:".length($answer)."\n";
+	  Log 4, "Debug: Message length ".length($answer);
 
 	  if(length($answer)>=63 && length($answer)<=100)
 	  {
