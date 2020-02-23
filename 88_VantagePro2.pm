@@ -109,7 +109,7 @@ VantagePro2_GetStatus($)
 
 #	  print "Debug:".length($answer)."\n";
 
-	  if(length($answer)>=63)
+	  if(length($answer)>=63 && length($answer)<=100)
 	  {
 		  my $offset=1;
 		  my $t;
